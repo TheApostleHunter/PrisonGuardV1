@@ -33,11 +33,11 @@ local Window = Rayfield:CreateWindow({
  local Tab3 = Window:CreateTab("Tab Example 3", 4483362458) -- Title, Image
 
  --Sections[Find out what this is]
- local Section = Tab:CreateSection("Section Example")
- local Section2 = Tab1:CreateSection("Section2 Example.")
+ local Section = Tab1:CreateSection("Section Example")
+ local Section2 = Tab2:CreateSection("Section2 Example.")
 
- Section2:Set("Section2 Set Example")
  Section:Set("Section Set Example")
+ Section2:Set("Section2 Set Example")
 
  Rayfield:Notify({
     Title = "Notification Title/Loaded",
