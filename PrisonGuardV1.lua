@@ -2,17 +2,17 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 --Window
 local Window = Rayfield:CreateWindow({
-    Name = "Rayfield Example Window",
-    LoadingTitle = "Rayfield Interface Suite",
-    LoadingSubtitle = "by Sirius",
+    Name = "PrisonGuard V1.0 "
+    LoadingTitle = "Loading PrisonGuard V1.0",
+    LoadingSubtitle = "by BoogBear",
     ConfigurationSaving = {
        Enabled = true,
        FolderName = nil, -- Create a custom folder for your hub/game
        FileName = "Big Hub"
     },
     Discord = {
-       Enabled = false,
-       Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+       Enabled = flase,
+       Invite = "BoogsBungalow", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
        RememberJoins = true -- Set this to false to make them join the discord every time they load it up
     },
     KeySystem = false, -- Set this to true to use our key system
@@ -35,6 +35,7 @@ local Window = Rayfield:CreateWindow({
  --Sections[Find out what this is]
  local Section = Tab1:CreateSection("Section Example")
  local Section2 = Tab2:CreateSection("Section2 Example.")
+ 
 
  Section:Set("Section Set Example")
  Section2:Set("Section2 Set Example")
