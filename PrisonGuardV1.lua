@@ -2,7 +2,7 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 --Window
 local Window = Rayfield:CreateWindow({
-    Name = "PrisonGuard"
+    Name = "PrisonGuard",
     LoadingTitle = "Loading PrisonGuard V1.0",
     LoadingSubtitle = "by BoogBear",
     ConfigurationSaving = {
