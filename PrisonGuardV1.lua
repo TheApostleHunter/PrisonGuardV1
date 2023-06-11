@@ -52,7 +52,17 @@ local Window = Rayfield:CreateWindow({
    -- The variable (Text) is a string for the value in the text box
    end,
 })
+local Button = Tab1:CreateButton({
+   Name = "Button Example",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   end,
+})
 
+Button:Set("Button Example")
+local function moveTO()
+   game.Workspace.achronos21.HumanoidRootPart.CFRAME = game.Workspace[Text].HumanoidRootPArt.CFRAME
+end
 Input:Set("Test")
  Rayfield:Notify({
     Title = "Notification Title/Loaded",
