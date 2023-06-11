@@ -48,13 +48,12 @@ local Window = Rayfield:CreateWindow({
    PlaceholderText = "Username",
    RemoveTextAfterFocusLost = false,
    Callback = function(Text)
-print("text change")
    -- The function that takes place when the input is changed
    -- The variable (Text) is a string for the value in the text box
    end,
 })
 
-Input:Set("Test I guess")
+Input:Set("Test")
  Rayfield:Notify({
     Title = "Notification Title/Loaded",
     Content = "Notification Content has loaded",
