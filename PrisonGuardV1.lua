@@ -54,7 +54,7 @@ local Window = Rayfield:CreateWindow({
 })
 local Button = Tab1:CreateButton({
    Name = "Button Example",
-   Callback = function()
+   Callback = function(moveTO)
    -- The function that takes place when the button is pressed
    end,
 })
