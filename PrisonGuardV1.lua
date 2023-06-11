@@ -39,11 +39,11 @@ local Window = Rayfield:CreateWindow({
  
  
 
- Section:Set("Section Set Example")
+ Section:Set("Section Set Example, enter username to teleport to")
  Section2:Set("Section2 Set Example")
 
  --textbox
- local Input = Tab:CreateInput({
+ local Input = Tab1:CreateInput({
    Name = "Input Example",
    PlaceholderText = "Username",
    RemoveTextAfterFocusLost = false,
@@ -54,6 +54,7 @@ print("text change")
    end,
 })
 
+Input:Set("Test I guess")
  Rayfield:Notify({
     Title = "Notification Title/Loaded",
     Content = "Notification Content has loaded",
