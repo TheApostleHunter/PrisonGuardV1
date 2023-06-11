@@ -33,12 +33,26 @@ local Window = Rayfield:CreateWindow({
  local Tab3 = Window:CreateTab("Tab Example 3", 4483362458) -- Title, Image
 
  --Sections[Find out what this is]
- local Section = Tab1:CreateSection("Section Example")
+ local Section = Tab1:CreateSection("Enter the character username to teleport to.")
  local Section2 = Tab2:CreateSection("Section2 Example.")
+
+ 
  
 
  Section:Set("Section Set Example")
  Section2:Set("Section2 Set Example")
+
+ --textbox
+ local Input = Tab:CreateInput({
+   Name = "Input Example",
+   PlaceholderText = "Username",
+   RemoveTextAfterFocusLost = false,
+   Callback = function(Text)
+print("text change")
+   -- The function that takes place when the input is changed
+   -- The variable (Text) is a string for the value in the text box
+   end,
+})
 
  Rayfield:Notify({
     Title = "Notification Title/Loaded",
