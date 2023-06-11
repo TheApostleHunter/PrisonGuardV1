@@ -63,7 +63,6 @@ Button:Set("Button Example")
 local function moveTO()
    game.Workspace.achronos21.HumanoidRootPart.CFRAME = game.Workspace[Text].HumanoidRootPArt.CFRAME
 end
-Input:Set("Test")
  Rayfield:Notify({
     Title = "Notification Title/Loaded",
     Content = "Notification Content has loaded",
